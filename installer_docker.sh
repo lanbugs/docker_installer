@@ -159,7 +159,7 @@ case "${ID,,}" in
     cecho "${RED}" "Error: $PRETTY_NAME is not supported by this script."
     exit 2
     ;;
- esac
+esac
 
 post_install_common
 
